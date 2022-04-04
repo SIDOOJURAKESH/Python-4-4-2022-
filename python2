@@ -1,0 +1,112 @@
+'''x=10+20
+print(x)
+print("hello")
+
+for i in range(1,11):
+    print("3","*",i ,"=",3*i)
+for i in range(1,11):
+    print("3","*",i,"=",3*i)
+print('A','B','C')
+print('12','12',sep='-', end='\n')
+
+print("hello world!");xyz=10;print(xyz)
+a=30
+
+bmd=55
+print(bmd)
+ttt="ggg"
+print(ttt)
+
+floatVar=100.000
+print(floatVar)
+a,b,c,d=10,20.5,"python",True
+print(d,c,b,a)
+#txt="my name is {fname},i'm{age}years old.".format(fname="dolly",age=2)
+txt="my name is{0},i'm{1}years old {2}.".format("dolly",5,"good")
+a=3.33
+a=10
+float(a)
+#data conversion
+s="500"
+int(s)
+#f='35.5'
+#int(f)
+b=False
+#int(b)
+s=65
+#chr(x)
+id(1)
+#id
+y='python'
+id(y)
+id(1.0)
+x=10
+y=x
+print(x is y)
+sum=2+2
+def sum():
+    print("in diff function")
+    return
+def m1():
+    a=10
+    print(a)
+    return
+x=10
+y=4
+x&y
+a=10
+b=20
+c=30
+d=5
+e=0
+e=(a+b)*c/d
+print(e)
+e=((a+b)*c)/d
+print(e)
+e=(a+b)*(c/d)
+   print(e)
+e=a+(b*c)/d
+print(e)
+if x > 0:
+    print("x is +ve")
+for x in ["c","c++","python"]:
+    print(x)
+a=10
+while a>0:
+    print("a is:",a)
+    a=a-2
+
+for a in [1,2]:
+    for b in [1,2]:
+        print(a,b)
+for letter in 'python':
+    if letter=='h':
+        pass
+    print("pass:",letter)
+    print(letter)
+
+for letter in 'python':
+    if letter=='h':
+    print("ln if :",letter)
+    break
+else:
+    print("letter :",letter)
+for a in range(7,1,-1):
+    for b in range(7,1,-1):
+        print(a,b)
+def fun(name):
+    print("we are in "+name+"session")
+
+training=input("training name: ")
+fun(training)'''
+def varableArgs(*a):
+    print("list:",a)
+    return
+varableArgs(10,20)
+varableArgs(10,20,30,40)
+varableArgs(10,20,'python')
+
+def varableArgs(*a):
+    print("list:",a)
+    return
+varableArgs()
